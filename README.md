@@ -2,33 +2,26 @@
 
 This repository contains the starter code for the final project of course 2 Infrastructure as Code in the Cloud DevOps Engineer Nanodegree.
 
-Please note that all supporting material for this course can be found in [this Github repository](https://github.com/udacity/cd12352-Deploy-Infrastructure-as-Code).
+
 
 # Deploy a high-availability web app using CloudFormation
 
-In this project, you’ll deploy web servers for a highly available web app using CloudFormation. You will write the code that creates and deploys the infrastructure and application for an Instagram-like app from the ground up. You will begin with deploying the networking components, followed by servers, security roles and software.  The procedure you follow here will become part of your portfolio of cloud projects. You’ll do it exactly as it’s done on the job - following best practices and scripting as much as possible. 
+This project deploys web servers for a highly available web app using CloudFormation. As the final project of course 2 Infrastructure as Code in the Cloud DevOps Engineer Nanodegree, the code creates and deploys the infrastructure and application for an Instagram-like app from the ground up. This involves networking components, followed by servers, security roles and software. 
 
 ## Getting Started
 
 ### Dependencies
 
-1. AWS CLI installed and configured in your workspace using an AWS IAM role with Administrator permissions (as reviewed in the course).
+1. AWS CLI installed and configured in your workspace using an AWS IAM role with Administrator permissions.
 
-2. Access to a diagram creator software of your choice.
-
-3. Your favorite IDE or text editor ready to work.
 
 ### Installation
 
 You can get started by cloning this repo in your local workspace:
 
 ```
-git clone git@github.com:udacity/-cd12352-Deploy-Infrastructure-as-Code-project.git
+https://github.com/kevahwin/cloudformation-iac-project.git
 ```
-
-## Testing
-
-No tests required for this project.
 
 ## Project Instructions
 
@@ -46,4 +39,4 @@ No tests required for this project.
 
 ## License
 
-[License](LICENSE.txt)
+Please note that all supporting and starter material for this course can be found in [this Github repository](https://github.com/udacity/cd12352-Deploy-Infrastructure-as-Code).
