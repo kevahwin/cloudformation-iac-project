@@ -1,12 +1,6 @@
-# ND9991 - Course 2 - Infrastructure as Code
-
-This repository contains the starter code for the final project of course 2 Infrastructure as Code in the Cloud DevOps Engineer Nanodegree.
-
-
-
 # Deploy a high-availability web app using CloudFormation
 
-This project deploys web servers for a highly available web app using CloudFormation. As the final project of course 2 Infrastructure as Code in the Cloud DevOps Engineer Nanodegree, the code creates and deploys the infrastructure and application for an Instagram-like app from the ground up. This involves networking components, followed by servers, security roles and software. 
+This project deploys web servers for a highly available web app using CloudFormation. It creates and deploys the infrastructure and application for an Instagram-like app from the ground up. This involves networking components, followed by servers, security roles and software. 
 
 ## Getting Started
 
@@ -37,6 +31,7 @@ https://github.com/kevahwin/cloudformation-iac-project.git
    
 6.  Submit your solution as a GitHub link or a zipped file containing the diagram image, CloudFormation yml and json files, automation scripts and README file.
 
-## License
+## Acknowledgements
 
+This is the final project of course 2 Infrastructure as Code in the Cloud DevOps Engineer Nanodegree.
 Please note that all supporting and starter material for this course can be found in [this Github repository](https://github.com/udacity/cd12352-Deploy-Infrastructure-as-Code).
