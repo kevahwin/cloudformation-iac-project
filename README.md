@@ -2,6 +2,8 @@
 
 This project deploys web servers for a highly available web app using CloudFormation. It creates and deploys the infrastructure and application for an Instagram-like app from the ground up. This involves networking components, followed by servers, security roles and software. 
 
+![Infrastructure Diagram](cloudformation-infra-diagram-ka.drawio.png)
+
 ## Getting Started
 
 ### Dependencies
