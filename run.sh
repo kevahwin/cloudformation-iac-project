@@ -10,7 +10,7 @@
 #
 # Usage examples:
 #   ./run.sh deploy us-east-1 kev-udacity-iac-stack src/network.yml src/network-parameters.json
-#   ./run.sh preview us-east-1 kev-udacity-iac-stack src/udagram.yml src/udagram-parameters.json
+#   ./run.sh preview us-east-1 kev-udacity-app-stack src/udagram.yml src/udagram-parameters.json
 #   ./run.sh delete us-east-1 udacity-scripts-exercise
 #
 
@@ -33,7 +33,8 @@ then
         --stack-name $STACK_NAME \
         --template-file $TEMPLATE_FILE_NAME \
         --parameter-overrides file://$PARAMETERS_FILE_NAME \
-        --region=$REGION
+        --region=$REGION \
+        --capabilities CAPABILITY_NAMED_IAM
 fi
 if [ $EXECUTION_MODE == "delete" ]
 then
@@ -48,5 +49,6 @@ then
         --template-file $TEMPLATE_FILE_NAME \
         --parameter-overrides file://$PARAMETERS_FILE_NAME \
         --no-execute-changeset \
-        --region=$REGION 
+        --region=$REGION \
+        --capabilities CAPABILITY_NAMED_IAM
 fi
