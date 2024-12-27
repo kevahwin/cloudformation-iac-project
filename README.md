@@ -21,17 +21,27 @@ https://github.com/kevahwin/cloudformation-iac-project.git
 
 ## Project Instructions
 
-1. Design your solution diagram using a tool of your choice and export it into an image file.
+### Spin up instructions
+To spin up the infrastructure, run the following command:
 
-2. Add all the CloudFormation networking resources and parameters to the `network.yml` and `network-parameters.json` files inside the `starter` folder of this repo.
+```sh
+./run.sh deploy <region> <stack-name> <template-file> <parameters-file>
+```
 
-3. Add all the CloudFormation application resources and parameters to the `udagram.yml` and `udagram-parameters.json` files inside the `starter` folder of this repo.
+Make sure to replace ``` <region>, <stack-name>, <template-file>, and <parameters-file> ``` with your specific region, stack name, template file, and parameters file.
 
-4. Create any required script files to automate spin up and tear down of the CloudFormation stacks.
+### Tear down instructions
+To tear down the infrastructure, run the following command:
+```sh
+./run.sh delete <region> <stack-name>
+```
 
-5. Update the README.md file in the `starter` folder with creation and deletion instructions, as well as any useful information regarding your solution.
-   
-6.  Submit your solution as a GitHub link or a zipped file containing the diagram image, CloudFormation yml and json files, automation scripts and README file.
+### Other considerations
+Note: Before running the script, ensure it has execute permissions by running:
+
+```sh
+chmod +x run.sh
+```
 
 ## Acknowledgements
 
