@@ -42,6 +42,9 @@ Note: Before running the script, ensure it has execute permissions by running:
 ```sh
 chmod +x run.sh
 ```
+### Example Working Test
+After successful deployment you should be able to access the WebAppURL from the outputs as show below:
+ ![Working Test](screenshot.png)
 
 ## Acknowledgements
 
