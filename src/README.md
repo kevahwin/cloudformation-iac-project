@@ -8,7 +8,7 @@ To spin up the infrastructure, run the following command:
 ./run.sh deploy <region> <stack-name> <template-file> <parameters-file>
 ```
 
-Make sure to replace <region>, <stack-name>, <template-file>, and <parameters-file> with your specific region, stack name, template file, and parameters file.
+Make sure to replace ``` <region>, <stack-name>, <template-file>, and <parameters-file> ``` with your specific region, stack name, template file, and parameters file.
 
 ## Tear down instructions
 To tear down the infrastructure, run the following command:
